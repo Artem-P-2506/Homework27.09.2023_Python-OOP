@@ -29,6 +29,7 @@ class Atom:
 
     def getValency(self):
         return self._valency
+
 #SETTERS:
     def setNumberOfProtons(self, newNumberOfProtons):
         self._numberOfProtons = newNumberOfProtons
@@ -44,6 +45,7 @@ class Atom:
 
     def setValency(self, newValency):
         self._valency = newValency
+
 #METHODS:
     def print(self):
         print("Число протонов: " + str(self.getNumberOfProtons()) + "\nЧисло нейтронов: " + str(self.getNumberOfNeutrons()) +
